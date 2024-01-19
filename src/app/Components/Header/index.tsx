@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
 import "swiper/css";
 import Navbar from "../Navbar";
 import { Span } from "next/dist/trace";
@@ -45,28 +44,26 @@ const VideoPlayer: React.FC = () => {
     setActiveVideo(videoNumber);
   };
 
-  SwiperCore.use([Autoplay, Pagination, Navigation]);
 
   return (
     <>
       <div className="relative">
 
       <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 6000,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={false}
-        className="mySwiper bg-[#183240] bg-opacity-50"
-        onSlideChange={(swiper) => {
-          setActiveVideo(swiper.activeIndex);
-        }}
-      >
+      spaceBetween={30}
+      centeredSlides={true}
+      autoplay={{
+        delay: 6000,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={false}
+      className="mySwiper bg-[#183240] bg-opacity-50"
+      onSlideChange={(swiper) => {
+        setActiveVideo(swiper.activeIndex);
+      }}>
         <div className="absolute w-full  top-0 z-50">
           <Navbar />
         </div>
