@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+ 
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* 
+<div className="flex space-x-4">
+         
+<button onClick={() => changeVideo(0)}> 1</button>
+<button onClick={() => changeVideo(1)}> 2</button>
+<button onClick={() => changeVideo(2)}> 3</button>
+</div> */
+
+
+
+/* // components/VideoPlayer.js
+"use client"
+import React, { useState, useEffect } from 'react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+// Import Swiper styles
+import "swiper/css";
+
+
+
+
+interface Video {
+  url: string;
+  text: string;
+}
+
+const videos: Video[] = [
+  {
+    url: 'Devsinc.mp4',
+    text: `Video 1: Hatim Jasmeen Background Music`,
+  },
+  {
+    url: 'Devsinc_1.mp4',
+    text: 'Video 2: Yun Pakistan Bana Tha - Singer & Composer Sahir Ali Bagga',
+  },
+  {
+    url: 'Devsinc_2.mp4',
+    text: 'Video 3: Yun Pakistan Bana Tha - Singer & Composer Sahir Ali Bagga',
+  },
+  {
+    url: 'Devsinc_3.mp4',
+    text: 'Video 4: Hatim Jasmeen Background Music (Again)',
+  },
+];
+
+const VideoPlayer: React.FC = () => {
+  const [activeVideo, setActiveVideo] = useState<number>(0);
+
+  const changeVideo = (videoNumber: number) => {
+    setActiveVideo(videoNumber);
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Increment the active video index in a circular manner
+      setActiveVideo((prevIndex) => (prevIndex + 1) % videos.length);
+    }, 6000); // Change video every 5 seconds
+
+    // Clear the interval when the component unmounts
+    return () => clearInterval(interval);
+  }, []); // Empty dependency array means the effect runs once when the component mounts
+
+  return (
+    <>
+     <Swiper 
+     
+      spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+
+     className="mySwiper transition-all duration-1000 ease-in-out">
+     <SwiperSlide> <div className="video-container relative w-full h-screen ">
+            <video
+              src={videos[activeVideo].url}
+              frameBorder="0"
+              allowFullScreen
+              title={`Video ${activeVideo + 1}`}
+              autoPlay
+              muted
+              style={{ border: 'none', pointerEvents: 'none', filter: 'brightness(70%)' }}
+              className="w-full h-full object-cover transition-all duration-1000 ease-in-out"
+            ></video>
+
+            <div className="overlay absolute inset-0 bg-[#183240] bg-opacity-50">
+              <p className="text-white text-lg ">{videos[activeVideo].text}</p>
+
+              <div className="flex space-x-4">
+         
+         <button onClick={() => changeVideo(0)}> 1</button>
+         <button onClick={() => changeVideo(1)}> 2</button>
+         <button onClick={() => changeVideo(2)}> 3</button>
+         <button onClick={() => changeVideo(3)}> 4</button>
+         </div> 
+            </div>
+          </div></SwiperSlide>
+     </Swiper>
+         
+       
+    </>
+  );
+};
+
+export default VideoPlayer; */
