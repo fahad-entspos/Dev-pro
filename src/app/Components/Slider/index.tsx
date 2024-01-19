@@ -19,7 +19,7 @@ export default function App() {
   return <>
     
     <div className='flex  mt-20 flex-wrap justify-center gap-6 md:gap-0   lg:flex-nowrap bg-[#fafafa] transition-all duration-1000 '>
-    <div  className='w-[90%] sticky lg:w-[60%] ml-0 md:ml-12  transition-all duration-1000 '>
+    <div  className='w-[90%] sticky lg:w-[60%] ml-0 md:ml-28  transition-all duration-1000 '>
 <button className='text-xs rounded-sm px-3 mt-14 text-[#0ebab1] bg-[#e8e7e7] py-[6px] transition-all duration-1000 '> Team Building Plan</button>
 
 <div className='flex justify-between items-center transition-all duration-1000  '>
@@ -168,7 +168,7 @@ export default function App() {
 {/* <img className='w-[400px] h-[500px] absolute top-0  right-0 z-50' src="austin-distel-21GWwco-JBQ-unsplash.jpg" alt="Error" /> */}
     </div>
 
-    <div className='relative    w-[100%] lg:w-[450px] h-[500px] md:h-[600px] transition-all duration-1000   overflow-hidden '>
+    <div className='relative    w-[100%] lg:w-[600px] h-[500px] md:h-[600px] transition-all duration-1000   overflow-hidden '>
     <img 
      style={{
       filter: "brightness(40%)"

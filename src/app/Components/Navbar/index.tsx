@@ -38,7 +38,7 @@ const Navbar = () => {
       }  `}
     >
    <div className="w-full   bg-transparent shadow">
-        <div className="justify-between px-5  mx-auto md:items-center flex md:px-12 transition-all duration-1000 ease-in-out  " >
+        <div className="justify-between  mx-auto md:items-center flex  px-5 md:px-28  transition-all duration-1000 ease-in-out  " >
             <div>
                 <div className="flex items-center justify-between py-3 md:py-5 md:block  ">
                 {scrolling ? (

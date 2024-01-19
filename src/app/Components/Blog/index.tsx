@@ -4,8 +4,8 @@ function Blogs() {
   return <>
   <div className='mt-40 '>
 
-  <div className='flex w-[95%] items-center justify-between  '>
-  <h1 className=' font-poppins  ml-[14px]    transition-all duration-1000 md:ml-[47px] text-4xl tracking-tight font-semibold text-[#042638]   lg:text-4xl xl:text-4xl'>Our Blogs</h1>
+  <div className='flex w-[92%] items-center justify-between  '>
+  <h1 className=' font-poppins  ml-[14px] xl:ml-[105px]    transition-all duration-1000 text-4xl tracking-tight font-semibold text-[#042638]   lg:text-4xl xl:text-4xl'>Our Blogs</h1>
   
   <u className=' text-black rounded-md  gap-2 flex flex-row  items-center font-poppins'>
                         <a ></a>View More
@@ -15,14 +15,14 @@ function Blogs() {
  
  
  
-  <p className='  ml-[14px]    transition-all duration-1000 md:ml-[47px]  font-poppins mt-8'>
+  <p className='  ml-[14px] xl:ml-[105px]    transition-all duration-1000  font-poppins mt-8'>
   Enjoy a deep dive into the pool of tech knowledge provided by our experts. Stay up to date with the latest trends and much more happening in the world.    </p>
 
 
 
 <div className='flex md:flex-row flex-colm ml-[17px] gap-3 md:gap-4 md:ml-[7px]  md:justify-center  flex-wrap mt-10'>
 
-  <div className='relative w-[90%] lg:w-[480px] h-[260px] md:h-[460px] transition-all duration-1000   overflow-hidden rounded-2xl'>
+  <div className='relative w-[90%] lg:w-[600px] h-[260px] md:h-[460px] transition-all duration-1000   overflow-hidden rounded-2xl'>
     <img 
      style={{
       filter: "brightness(40%)"
@@ -63,7 +63,7 @@ function Blogs() {
     </div>
 </div>
 <div className='flex flex-col gap-[11px] transition-all duration-1000  '>
-<div className='relative w-[90%] lg:w-[270px] h-[260px] md:h-[225px] overflow-hidden rounded-2xl'>
+<div className='relative w-[90%] lg:w-[300px] h-[260px] md:h-[225px] overflow-hidden rounded-2xl'>
     <img
     style={{
       filter: "brightness(40%)"
@@ -77,7 +77,7 @@ function Blogs() {
           
     </div>
 </div> 
-<div className='relative w-[90%] lg:w-[270px] h-[260px] transition-all duration-1000  md:h-[225px] overflow-hidden rounded-2xl'>
+<div className='relative w-[90%] lg:w-[300px] h-[260px] transition-all duration-1000  md:h-[225px] overflow-hidden rounded-2xl'>
     
     <img 
      style={{
@@ -93,7 +93,7 @@ function Blogs() {
     </div>
 </div> 
 </div>
-<div className='relative w-[90%] lg:w-[333px]  h-[260px] md:h-[460px] overflow-hidden rounded-2xl transition-all duration-1000 '>
+<div className='relative w-[90%] lg:w-[360px]  h-[260px] md:h-[460px] overflow-hidden rounded-2xl transition-all duration-1000 '>
     <img 
      style={{
       filter: "brightness(40%)"

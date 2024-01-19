@@ -20,22 +20,21 @@ function Animations() {
   };
 
   return <>
-  <h1 className='font-poppins  ml-[14px]  md:ml-[47px] text-4xl tracking-tight font-semibold text-[#042638]  mt-12  lg:text-4xl xl:text-4xl'>IT Services for Your Enterprise</h1>
-  <p className=' ml-[14px] mt-12 md:ml-[47px] font-poppins transition-all duration-1000'>
+  <h1 className='font-poppins  ml-[14px] xl:ml-[105px]  text-4xl tracking-tight font-semibold text-[#042638]  mt-12  lg:text-4xl xl:text-4xl'>IT Services for Your Enterprise</h1>
+  <p className=' mt-12 ml-[14px] xl:ml-[105px]  font-poppins transition-all duration-1000'>
   Now you can delve into the ultimate experience of availing the best possible enterprise services, empowering  business vision and accelerating you on the path of exponential growth.
   </p>
-      <div className="flex justify-center  flex-col md:flex-row flex-wrap gap-2 mt-10">
+      <div className="flex justify-center relative flex-col md:flex-row flex-wrap gap-4 mt-10 px-5 md:px-2">
    
    
 
  
-      <div className="relative ">
       <div
         onMouseEnter={() => changeTab('tab1')}
         onMouseLeave={() => changeTab(activeTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          activeTab === 'tab1' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          activeTab === 'tab1' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw]  h-36 md:h-72'
         }`}
       >
         <img
@@ -88,7 +87,7 @@ function Animations() {
           </h2>
         </div>
       </div>
-    </div> 
+  
  
  
  
@@ -99,7 +98,7 @@ function Animations() {
         onMouseLeave={() => changeTab(activeTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          activeTab === 'tab2' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          activeTab === 'tab2' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -161,7 +160,7 @@ function Animations() {
         onMouseLeave={() => changeTab(activeTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          activeTab === 'tab3' ? 'w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          activeTab === 'tab3' ? 'w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw]  h-36 md:h-72'
         }`}
       >
         <img
@@ -224,7 +223,7 @@ trajectory through our cybersecurity consulting services.          </h2>
         onMouseLeave={() => changeTab(activeTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          activeTab === 'tab4' ? 'w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          activeTab === 'tab4' ? 'w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw]  h-36 md:h-72'
         }`}
       >
         <img
@@ -283,7 +282,7 @@ We automate, integrate, and eventually deliver nothing less than <br /> excellen
 
 
 
-      <div className="flex justify-center flex-col md:flex-row flex-wrap gap-2 mt-10">
+      <div className="flex justify-center flex-col md:flex-row flex-wrap gap-4 mt-4 md:mt-10 px-5 md:px-2">
 
       <div className="relative">
       <div
@@ -291,7 +290,7 @@ We automate, integrate, and eventually deliver nothing less than <br /> excellen
         onMouseLeave={() => handleTabChange(selectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          selectedTab === 'tab5' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          selectedTab === 'tab5' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -355,7 +354,7 @@ We offer our system integration services to run your company’s <br /> software
         onMouseLeave={() => handleTabChange(selectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          selectedTab === 'tab6' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          selectedTab === 'tab6' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -419,7 +418,7 @@ We provide you with the innovative designers who blend aesthetics and <br />func
         onMouseLeave={() => handleTabChange(selectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          selectedTab === 'tab7' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          selectedTab === 'tab7' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -486,7 +485,7 @@ We ensure the protection of your digital assets and user data robustly <br /> wi
         onMouseLeave={() => handleTabChange(selectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          selectedTab === 'tab8' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          selectedTab === 'tab8' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -544,13 +543,13 @@ Optimize outreach and enhance brand visibility to foster customer <br /> engagem
     </div>
     </div>
 
-    <h1 className='font-poppins  ml-[14px]  md:ml-[47px] text-4xl tracking-tight font-semibold text-[#042638]  mt-12  lg:text-4xl xl:text-4xl'>
+    <h1 className='font-poppins  ml-[14px] xl:ml-[105px]  text-4xl tracking-tight font-semibold text-[#042638]  mt-12  lg:text-4xl xl:text-4xl'>
     Our Advanced Services
     </h1>
-    <p className=' ml-[14px]  md:ml-[47px] font-poppins mt-8'>
+    <p className=' ml-[14px]  xl:ml-[105px] font-poppins mt-8'>
     Unravel the power of our Next-Gen IT services in the favor of your exclusive business mission.
     </p>
-    <div className="flex justify-center flex-col md:flex-row flex-wrap gap-2 mt-14">
+    <div className="flex justify-center flex-col md:flex-row flex-wrap gap-4 mt-4 px-5 md:px-2">
 
     <div className="relative">
       <div
@@ -558,7 +557,7 @@ Optimize outreach and enhance brand visibility to foster customer <br /> engagem
         onMouseLeave={() => handleNewTabChange (itsselectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          itsselectedTab === 'tab9' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          itsselectedTab === 'tab9' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -621,7 +620,7 @@ Optimize outreach and enhance brand visibility to foster customer <br /> engagem
         onMouseLeave={() => handleNewTabChange (itsselectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          itsselectedTab === 'tab10' ? 'w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          itsselectedTab === 'tab10' ? 'w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -685,7 +684,7 @@ Enabling businesses to harness the potential of IoT, <br /> connecting/controlli
         onMouseLeave={() => handleNewTabChange (itsselectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          itsselectedTab === 'tab11' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          itsselectedTab === 'tab11' ? 'w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img
@@ -750,7 +749,7 @@ Drive insights and refine strategies. Utilize the power of data for informed <br
         onMouseLeave={() => handleNewTabChange (itsselectedTab)}
         className={` rounded-md
          transition-all duration-1000 ease-in-out  ${
-          itsselectedTab === 'tab12' ? ' w-screen md:w-[500px] h-36 md:h-72' : 'w-screen md:w-[200px]  h-36 md:h-72'
+          itsselectedTab === 'tab12' ? ' w-[92vw] md:w-[37vw] h-36 md:h-72' : 'w-[92vw] md:w-[15vw] h-36 md:h-72'
         }`}
       >
         <img

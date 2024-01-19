@@ -4,7 +4,7 @@ import { BiSolidMessage } from "react-icons/bi";
 function Community() {
   return <>
   
-  <div className='bg-[#0c3a53] mt-10 w-[91vw]  flex justify-center lg:justify-between flex-wrap  gap-3 items-center py-20 px-12 rounded-2xl mx-auto'>
+  <div className='bg-[#0c3a53] mt-10 w-[85vw]  flex justify-center lg:justify-between flex-wrap  gap-3 items-center py-20 px-12 rounded-2xl mx-auto'>
 
 
 <div className='flex flex-col gap-3 '>

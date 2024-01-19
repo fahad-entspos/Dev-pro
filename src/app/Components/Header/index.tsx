@@ -77,8 +77,6 @@ const VideoPlayer: React.FC = () => {
             className="video-container w-full h-screen">
               <video
                 src={videos[activeVideo].url}
-                frameBorder="0"
-                allowFullScreen
                 title={`Video ${index + 1}`}
                 autoPlay
                 muted
@@ -94,8 +92,8 @@ const VideoPlayer: React.FC = () => {
                 className="w-full h-full object-cover"
               ></video>
 
-              <div className=" absolute inset-0 top-48  lg:top-24 ">
-                <div className="flex space-x-4  transition-all duration-1000 ease-in-out  ml-[14px] lg:ml-[46px]   w-full ">
+              <div className=" absolute inset-0 sm:top-12 top-28  md:top-24 ">
+                <div className="flex space-x-4  transition-all duration-1000 ease-in-out  ml-[14px] xl:ml-[105px]   w-full ">
                   {activeVideo === 0 && (
                     <div className="text-white flex flex-col gap-6 ">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-semibold font-poppins transition-all duration-1000 ease-in-out">
@@ -200,7 +198,7 @@ Embark Your Knowledge
                     </div>
                   )}
                   {activeVideo === 2 && (
-                    <div className="text-white flex flex-col gap-6 ">
+                    <div className="text-white flex flex-col gap-2 md:gap-6 ">
                       <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-semibold font-poppins transition-all duration-1000 ease-in-out">
                         Enhance Brand Success with
                       </h1>
@@ -252,7 +250,7 @@ Explore your solution
                     </div>
                   )}
                   {activeVideo === 3 && (
-                    <div className="text-white flex flex-col gap-6 ">
+                    <div className="text-white flex flex-col gap-2 md:gap-6 ">
                       <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold font-poppins transition-all duration-1000 ease-in-out">
                         Decode Complexities with
                       </h1>
@@ -309,11 +307,11 @@ Embark Your Knowledge
                   )}
                 </div>
 
-                <div className="absolute  left-0 right-0 top-[28rem]  transition-all duration-1000 ease-in-out   lg:top-[23rem]">
+                <div className="absolute  left-0 right-0 bottom-12  transition-all duration-1000 ease-in-out   ">
                   <div className="flex justify-center ">
                     <button
                       onClick={() => handleTabClick(0)}
-                      className={`flex gap-2 text-xs w-[23vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
+                      className={`flex gap-2 text-xs w-[20vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
                         activeVideo === 0
                           ? "border-[#0ebab1] scale-105 text-[#0ebab1]"
                           : "border-white text-white"
@@ -325,7 +323,7 @@ Embark Your Knowledge
                     </button>
                     <button
                       onClick={() => handleTabClick(1)}
-                      className={`flex gap-2 text-xs w-[23vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
+                      className={`flex gap-2 text-xs w-[21.3vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
                         activeVideo === 1
                           ? "border-[#0ebab1] scale-105 text-[#0ebab1]"
                           : "border-white text-white"
@@ -336,7 +334,7 @@ Embark Your Knowledge
                     </button>
                     <button
                       onClick={() => handleTabClick(2)}
-                      className={`flex gap-2 text-xs w-[23vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
+                      className={`flex gap-2 text-xs w-[21.3vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
                         activeVideo === 2
                           ? "border-[#0ebab1] scale-105 text-[#0ebab1]"
                           : "border-white text-white"
@@ -349,7 +347,7 @@ Embark Your Knowledge
                     </button>
                     <button
                       onClick={() => handleTabClick(3)}
-                      className={`flex gap-2 text-xs w-[22vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
+                      className={`flex gap-2 text-xs w-[21.3vw] flex-row py-2 px-4 text-center border-t-2 transition transform ${
                         activeVideo === 3
                           ? "border-[#0ebab1] scale-105 text-[#0ebab1]"
                           : "border-white text-white"

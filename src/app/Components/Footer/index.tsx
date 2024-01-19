@@ -28,7 +28,7 @@ function Footer() {
 
 
 
-    <footer className="grid lg:grid-cols-6 gap-4 px-12 py-2 pt-24 ">
+    <footer className="grid lg:grid-cols-6 gap-4 px-5 md:px-28  py-2 pt-24 ">
         <div className="col-span-2   ">
 <img className='w-48' src="Footer.logo.webp" alt="" />
 <div className='flex flex-col gap-6 mt-6 text-[#c5c6c6]'>
@@ -51,7 +51,7 @@ San Francisco, CA 94111, USA.
 
            </div>
 
-        <div className="col-span-1">
+        <div className="col-span-1 text-sm">
         <div className="border-t flex flex-col gap-4 font-poppins text-[#c5c6c6] border-gray-500 hover:border-[#0eb9b0]  transition duration-1000 p-4">
           <h1 className='text-2xl text-white'>Company</h1>
           <h1 className='hover:text-[#0eb9b0]'>Home</h1>
@@ -62,7 +62,7 @@ San Francisco, CA 94111, USA.
 </div>
         </div>
 
-        <div className="col-span-1">
+        <div className="col-span-1  text-sm">
         <div className="border-t flex flex-col gap-4 font-poppins text-[#c5c6c6] border-gray-500 hover:border-[#0eb9b0]  transition duration-1000 p-4">
           <h1 className='text-2xl text-white'>Industries</h1>
           <h1  className='hover:text-[#0eb9b0]'>Healthcare</h1>
@@ -73,7 +73,7 @@ San Francisco, CA 94111, USA.
 </div>
         </div>
 
-        <div className="col-span-1">
+        <div className="col-span-1  text-sm">
         <div className="border-t flex flex-col gap-4 font-poppins text-[#c5c6c6] border-gray-500 hover:border-[#0eb9b0] transition duration-1000 p-4">
           <h1 className='text-2xl text-white'>Industries</h1>
           <h1 className='hover:text-[#0eb9b0]'>AI / ML</h1>
@@ -88,7 +88,7 @@ San Francisco, CA 94111, USA.
           <h1 className='hover:text-[#0eb9b0]'>Data Science</h1>
 </div>
         </div>
-<div className="col-span-1">
+<div className="col-span-1  text-sm">
         <div className="border-t flex flex-col gap-4 font-poppins text-[#c5c6c6] border-gray-500 hover:border-[#0eb9b0] transition duration-1000 p-4">
           <h1 className='text-2xl text-white'>Advanced Services</h1>
           <h1 className='hover:text-[#0eb9b0]'>Generative AI</h1>
@@ -100,10 +100,10 @@ San Francisco, CA 94111, USA.
         </div>
     </footer>
 
-<div className='px-10 h-[2px] text-[#0c3a53]  bg-[#0c3a53] w-[95%] mx-auto  mt-10' />
+<div className='px-10 h-[2px] text-[#0c3a53]  bg-[#0c3a53] w-[85%] mx-auto  mt-10' />
 
-<div className="flex justify-around w-full  mt-10">
-      <div className="w-[30%]">
+<div className="flex justify-around w-full  text-sm mt-10">
+      <div className="w-[20%]">
         <h1 className="font-poppins text-[#0eb9b0] text-lg">Partners</h1>
         <div className="flex flex-col gap-6 md:flex-row mt-2 ">
           <img className="w-28" src="Group-1000005856.webp" alt="Error" />
@@ -133,8 +133,8 @@ San Francisco, CA 94111, USA.
       </div>
     </div>
 
-<footer className="bg-[#0c3a53]  mt-8 ">
-    <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+<footer className="bg-[#0c3a53]  text-sm mt-8 ">
+    <div className="w-full mx-auto max-w-screen-xl  py-4 md:flex md:items-center md:justify-between ">
       <span className="text-sm md:text-base text-gray-500 sm:text-center dark:text-gray-400">  Copyrights © 2023 Reserved.
     </span>
     <ul className="flex flex-wrap items-center mt-3 text-base font-medium text-gray-500 dark:text-gray-400 sm:mt-0">

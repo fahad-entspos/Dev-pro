@@ -26,7 +26,7 @@ function CaseStudies() {
     style={{
       filter: "brightness(10%)"
     }}
-    className='w-full h-[150vw] bg-[#062739] object-cover transition-all   duration-1000  overflow-hidden'  // Adjust the height as needed
+    className='w-full h-[160vh] object-cover transition-all duration-1000 xl:h-[160vh] lg:h-[160vh] md:h-[160vh] sm:h-[160vh]'  // Adjust the height as needed
     src="flyd-BH0Wwlmv2oA-unsplash.jpg"
     alt="Error "
   />
@@ -35,7 +35,7 @@ function CaseStudies() {
     <div className='flex items-center justify-between '>
 
       <div>
-        <h2 className="font-poppins  text-2xl tracking-tight transition-all duration-1000 lg:text-3xl xl:text-4xl font-bold mt-4 md:mt-8   ml-[14px]     md:ml-[47px]">Case Studies
+        <h2 className="font-poppins  text-2xl tracking-tight transition-all duration-1000 lg:text-3xl xl:text-4xl font-bold mt-4 md:mt-8 ml-[14px] xl:ml-[105px] ">Case Studies
 </h2>
       </div>
       <div className=' cursor-pointer   flex flex-row gap-2 text-base mt-4 md:mt-16 text-[#0ebab1]'>
@@ -43,13 +43,13 @@ function CaseStudies() {
         <FaArrowRightLong className="" />
       </div>
     </div>
-    <p className="font-poppins text-[#c7c7c7] text-xs sm:text-sm tracking-tight transition-all duration-1000 md:text-base lg:text-xl xl:text-xl mt-4 md:mt-5 ml-[14px]     md:ml-[47px]">Discover how our IT solutions drive ROI and traffic for <br />our clients worldwide</p>
+    <p className="font-poppins text-[#c7c7c7] text-xs sm:text-sm tracking-tight transition-all duration-1000 md:text-base lg:text-xl xl:text-xl mt-4 md:mt-5 ml-[14px] xl:ml-[105px] ">Discover how our IT solutions drive ROI and traffic for <br />our clients worldwide</p>
   </div>
 
 
 
 
-            <div className="w-[90vw] lg:w-[100vw]  absolute top-36 lg:top-52  rounded-3xl font-poppins  ml-[14px]    transition-all duration-1000 md:ml-[47px] py-8 ">
+            <div className="w-[90vw] lg:w-[100vw]  absolute top-36 lg:top-52  rounded-3xl font-poppins     transition-all duration-1000 ml-[14px] xl:ml-[105px]  py-8 ">
 
 <div className="sticky">
 
